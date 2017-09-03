@@ -55,6 +55,7 @@ int main (void){
 	scanf("%f", &radius);
 	//Return 1 (indicating an error has occurred due to the invalid radius entry (it should not be less than 0) if the radius is less than zero.
 	if(radius < 0){
+		printf("Invalid radius. Must be greater than zero.");
 		return 1;
 	}
 	//Initialize and define three float fields, calculating the value of each one based on the entered radius.
@@ -75,7 +76,7 @@ int main (void){
 	 *	Circumference: (circumference)
 	 *	Area: (area)
 	 */
-	printf("A circle with radius %0.3f:\n\tDiameter: %0.3f \n\tArea: %0.3f \n\tCircumference: %0.3f\n", radius, diameter, area, circumference);
+	printf("A circle with radius %0.3f:\n\tDiameter: %0.3f \n\tArea: %0.3f \n\tCircumference: %0.3f", radius, diameter, area, circumference);
 
 	return 0;
 	//Ends program.
