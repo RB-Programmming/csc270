@@ -1,7 +1,8 @@
 
 /*
  * circle.c
- * Assignment#2
+ * Assignment #2
+ * by Ryan Barrett
  * Goals:
  * Correctly calculate diameter, circumference, and area of a circle based on radius.
  * Printed values will be rounded to three decimal places.
