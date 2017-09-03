@@ -51,14 +51,14 @@ int main (void){
 	float radius=0;
 	//Alternate print statement.
 	//printf("Welcome to circle.c, a program for calculating a circle's  diameter, circumference, and area.\nPlease enter a positive number as the circle's radius.\n");
-	printf("Enter radius:");
+	printf("Enter radius: ");
 	scanf("%f", &radius);
 	//Return 1 (indicating an error has occurred due to the invalid radius entry (it should not be less than 0) if the radius is less than zero.
 	if(radius < 0){
 		return 1;
 	}
 	//Initialize and define three float fields, calculating the value of each one based on the entered radius.
-	printf("Calculating...");
+	//printf("Calculating...");
 	float diameter=0;
 	float circumference=0;
 	float area=0;
@@ -75,7 +75,7 @@ int main (void){
 	 *	Circumference: (circumference)
 	 *	Area: (area)
 	 */
-	printf("A circle with radius %0.3f:\n\tDiameter: %0.3f \n\tArea: %0.3f \n\Circumference: %0.3f\n", radius, diameter, area, circumference);
+	printf("A circle with radius %0.3f:\n\tDiameter: %0.3f \n\tArea: %0.3f \n\tCircumference: %0.3f\n", radius, diameter, area, circumference);
 
 	return 0;
 	//Ends program.
