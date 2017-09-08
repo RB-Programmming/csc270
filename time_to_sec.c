@@ -46,7 +46,7 @@ unsigned int time_to_sec(unsigned int hours, unsigned int minutes, unsigned int 
  */
 
 void format_seconds(unsigned int hours, unsigned int minutes, unsigned int seconds) {
-	printf("%u hours, %u minutes and %u seconds is equal to %u seconds.", hours, minutes, seconds, time_to_sec(hours, minutes, seconds);
+	printf("%u hours, %u minutes and %u seconds is equal to %u seconds.", hours, minutes, seconds, time_to_sec(hours, minutes, seconds));
 }
 
 int main(void) {
